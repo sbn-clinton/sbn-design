@@ -37,12 +37,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="md:w-1/2 ">
-          <div className=" flex justify-center items-start">
+          <div className=" flex justify-center items-center">
             <Image
-              src="/images/group.png"
+              src="/images/Group.png"
               alt="logo"
-              width={1000}
-              height={1000}
+              width={800}
+              height={800}
               className=""
             />
           </div>

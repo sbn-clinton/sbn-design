@@ -25,7 +25,7 @@ const Features = () => {
         <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
           <div className="flex flex-col gap-2 border-2 border-gray-50 bg-gray-50 w-4/5 md:w-1/3  p-4 rounded-md">
             <Image
-              src="/images/group/frame1.png"
+              src="/images/group/Frame1.png"
               alt="feature-1"
               width={500}
               height={300}
@@ -42,7 +42,7 @@ const Features = () => {
           </div>
           <div className="flex flex-col gap-2 border-2 border-gray-50 bg-gray-50 w-4/5 md:w-1/3  p-4 rounded-md">
             <Image
-              src="/images/group/frame2.png"
+              src="/images/group/Frame2.png"
               alt="feature-1"
               width={500}
               height={300}
@@ -57,7 +57,7 @@ const Features = () => {
           </div>
           <div className="flex flex-col gap-2 border-2 border-gray-50 bg-gray-50 w-4/5 md:w-1/3  p-4 rounded-md">
             <Image
-              src="/images/group/frame3.png"
+              src="/images/group/Frame3.png"
               alt="feature-1"
               width={500}
               height={300}

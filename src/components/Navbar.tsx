@@ -25,11 +25,14 @@ const Navbar = () => {
             <li className="">
               <Link href="/blog">Blog</Link>
             </li>
+            <li className="">
+              <Link href="/about">About</Link>
+            </li>
           </ul>
         </div>
         <div className="flex items-center justify-center gap-x-4 md:gap-x-6 text-[#A6A6A6] text-lg font-medium">
-          <Link href="/" className="text-sm md:text-base">
-            Login
+          <Link href="/about" className="text-sm md:text-base">
+            About
           </Link>
           <button className="bg-[#F96C3B] text-[#FFFFFF] btn border-none btn-xs md:btn-sm hover:bg-[#F96C3B]/80 ">
             Sign Up

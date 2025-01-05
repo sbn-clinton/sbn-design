@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutPage = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center bg-[#F8FAFF] text-center max-w-6xl mx-auto gap-y-5 md:gap-y-10 py-10">
+      <div className="flex flex-col items-center justify-center bg-[#F8FAFF] text-center max-w-6xl mx-auto gap-y-5 md:gap-y-10 py-10 font-['Poppins']">
         <div className="flex flex-col items-center justify-center max-w-4xl mx-auto py-3">
           <Image
             src="/images/profile.png"
@@ -12,10 +12,10 @@ const AboutPage = () => {
             width={300}
             height={300}
           />
-          <h1 className="text-[48px] font-bold text-[212121] font-sans">
+          <h1 className="text-2xl md:text-5xl font-bold text-[212121] ">
             UX_ASIM
           </h1>
-          <p className="text-[32px] font-bold text-[212121] font-sans">
+          <p className="text-xl md:text-3xl font-bold text-[212121] ">
             UI/UX & Product Designer
           </p>
         </div>
@@ -27,7 +27,7 @@ const AboutPage = () => {
           className="w-[400px] md:w-[962px]  fill-[#D9D9D9] stroke-[#C1CBFF] stroke-3 "
         />
         <div className="w-[962px Fill] h-[120px Hug] flex flex-col items-center justify-center">
-          <p className="w-4/5 md:w-2/3 fill-[#00189F] fill-opacity-[100%] font-['Poppins'] text-[#00189F] text-[32px] font-bold text-center leading-[60px] tracking-[-0.15px]">
+          <p className="w-4/5 md:w-2/3  text-[#00189F] md:text-3xl font-bold text-center ">
             See my profiles, portfolios, and my products at the following links
             👇👇👇
           </p>
@@ -41,9 +41,7 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE] text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              LinkedIn
-            </p>
+            <p className="text-[#304FFE] md:text-2xl  font-bold ">LinkedIn</p>
           </div>
           <div className="flex flex-row items-center gap-2 ">
             <Image
@@ -53,9 +51,7 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE]  text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              Instagram
-            </p>
+            <p className="text-[#304FFE]  md:text-2xl font-bold">Instagram</p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <Image
@@ -65,9 +61,7 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE]  text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              Behance
-            </p>
+            <p className="text-[#304FFE]  md:text-2xl font-bold">Behance</p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <Image
@@ -77,9 +71,7 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE]  text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              Dribble
-            </p>
+            <p className="text-[#304FFE]  md:text-2xl font-bold">Dribble</p>
           </div>
         </div>
         <div className="flex flex-row items-center gap-3 md:gap-7 w-[111px Hug] h-[48px Hug] justify-center px-4">
@@ -91,9 +83,7 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE] text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              Fiverr
-            </p>
+            <p className="text-[#304FFE] md:text-2xl font-bold">Fiverr</p>
           </div>
           <div className="flex flex-row items-center gap-2 ">
             <Image
@@ -103,9 +93,7 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE]  text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              Upwork
-            </p>
+            <p className="text-[#304FFE]  md:text-2xl font-bold">Upwork</p>
           </div>
           <div className="flex flex-row items-center gap-2">
             <Image
@@ -115,13 +103,11 @@ const AboutPage = () => {
               height={48}
               className="fill-[#00189F] fill-opacity-[100%] w-[28px] h-[28px] md:w-[48px] md:h-[48px]"
             />
-            <p className="text-[#304FFE]  text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[48px] tracking-[-0.15px]">
-              Xing
-            </p>
+            <p className="text-[#304FFE]  md:text-2xl font-bold">Xing</p>
           </div>
         </div>
 
-        <p className="text-[#00189F] text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[35px] md:leading-[64px] tracking-[0.15px] text-wrap px-5">
+        <p className="text-[#00189F] md:text-2xl font-bold text-wrap px-5">
           Design samples & get previews for inspiration and personal use only.
           Don&apos;t selling, reselling & commercial use it without permission.
           You can get more information about this design on my{" "}
@@ -133,14 +119,14 @@ const AboutPage = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center gap-3 md:gap-6">
-          <h1 className="text-[#00189F] text-[32px] md:text-[64px] font-['Poppins'] font-bold leading-[35px] md:leading-[64px] tracking-[0.15px] ">
+          <h1 className="text-[#00189F] text-xl md:text-4xl font-bold ">
             Need Custom Design
           </h1>
-          <p className="text-[#00189F] text-[18px] md:text-[32px] font-['Poppins'] font-bold leading-[35px] md:leading-[64px] tracking-[0.15px] text-wrap">
+          <p className="text-[#00189F] md:text-2xl font-bold text-wrap">
             Please Contact With My Email 👇👇👇
           </p>
         </div>
-        <p className="text-[#00189F] text-[24px] md:text-[32px] font-['Poppins'] font-bold leading-[35px] md:leading-[64px] tracking-[0.15px] text-wrap px-5 underline">
+        <p className="text-[#00189F] md:text-2xl font-bold text-wrap px-5 underline">
           <Link href="/" className="text-[#EB5757]">
             ux.asimbaig@gmail.com
           </Link>
